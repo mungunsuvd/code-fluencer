@@ -1,0 +1,133 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#header-container{
+    width: 100vw;
+    height: 285px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 50px 165px 70px;
+}
+#header-container>header{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+.header-first-row{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: white;
+}
+.header-middle-row{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: rgb(223, 223, 223);
+}
+.header-last-row{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: rgb(80, 173, 248);
+}
+.nav-links{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link{
+    height: 100%;
+    padding: 0px 20px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link-link{
+    text-decoration: none;
+    color: white;
+}
+#header-container *{
+    font-family: 'Roboto', sans-serif;
+}
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-description{
+    padding: 0px 20px;
+    font-size: 14px;
+    color: gray;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-signup{
+    height: 100%;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.sign{
+    height: 100%;
+    padding-left: 25px;
+}
+#sign-button{
+    height: 25px;
+}
+
+#logo-main{
+    height: 70px;
+}
+.header-image-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-bgimage{
+    height: 60%;
+    background-image: url('./images/bird.jpg');
+    width: 800px;
+    background-position: center;
+    background-size: 796px calc( 100% - 4px );
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.bgtext{
+    text-transform: uppercase;
+    color: white;
+    font-size:14px;
+    margin: 30px 60px;
+}
+
+.tagtext{
+    width: auto;
+    height: 30px;
+    position: fixed;
+    margin-top: 45px;
+    font-size: 15px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
+}
+
+.active{
+    color: black !important;
+}
+.bgdescription{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 270px;
+    margin-top: -20px;
+}

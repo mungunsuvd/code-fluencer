@@ -1,0 +1,24 @@
+.social{
+    height: 14px;
+    fill: gray;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid gray;
+    padding-right: 25px;
+    height: 100%;
+    align-items: center;
+}
+.social-cont{
+    padding: 0px 10px;
+}
+.social-g{
+    height: 19px;
+}
+.social-t{
+    margin-top: 2px;
+}
+.social-l{
+    height: 12px;
+}
