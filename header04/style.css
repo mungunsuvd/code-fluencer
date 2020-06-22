@@ -132,3 +132,23 @@ body{
     margin-left: 270px;
     margin-top: -20px;
 }
+.tool-icon{
+    height: 18px;
+    color: white;
+}
+.tools-link{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.tool-link{
+    padding: 0px 20px;
+    border-left: 0.5px solid lightgray;
+    height: 30px;
+}
+.header-tools{
+    margin-right: -20px;
+}
+#first-tool{
+    border-left: none;
+}
