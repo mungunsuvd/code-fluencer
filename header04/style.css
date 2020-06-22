@@ -91,6 +91,7 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
+    margin-left: 7vw;
 }
 .header-bgimage{
     height: 60%;
@@ -99,7 +100,7 @@ body{
     background-position: center;
     background-size: 796px calc( 100% - 4px );
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 .bgtext{
     text-transform: uppercase;
