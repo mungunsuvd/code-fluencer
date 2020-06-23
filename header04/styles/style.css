@@ -84,7 +84,7 @@ body{
 }
 .header-bgimage{
     height: 60%;
-    background-image: url('./images/bird.jpg');
+    background-image: url('../images/bird.jpg');
     width: 800px;
     background-position: center;
     background-size: 796px calc( 100% - 4px );
