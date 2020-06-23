@@ -42,12 +42,6 @@ body{
     height: 100%;
     padding: 0px 20px;
 }
-.center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .nav-link-link{
     text-decoration: none;
     color: white;
@@ -55,12 +49,7 @@ body{
 #header-container *{
     font-family: 'Roboto', sans-serif;
 }
-.space-between{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+
 #header-description{
     padding: 0px 20px;
     font-size: 14px;
