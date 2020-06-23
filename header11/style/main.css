@@ -52,6 +52,9 @@ body{
     text-decoration: none;
     color: gray;
 }
+.nav-link-link:hover{
+    color: black;
+}
 .active{
     color: black !important;
 }

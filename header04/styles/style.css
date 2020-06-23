@@ -46,6 +46,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.nav-link-link:hover{
+    color: black;
+}
 #header-container *{
     font-family: 'Roboto', sans-serif;
 }
@@ -123,7 +126,10 @@ body{
 }
 .tool-icon{
     height: 18px;
-    color: white;
+    
+}
+.tool-icon:hover{
+    fill: black;
 }
 .tools-link{
     list-style-type: none;
